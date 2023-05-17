@@ -1,5 +1,4 @@
 
-
 // Establece tus colores personalizados
 $primary: #5265E1;
 $secondary: #FA5959;
@@ -10,7 +9,6 @@ $secondary: #FA5959;
 .nav-pills .nav-link {
     background-color: transparent;
     color: #000;
-    opacity: 0.5;
     border-radius: 0%;
 }
 
@@ -18,5 +16,17 @@ $secondary: #FA5959;
     background-color: transparent;
     color: #000;
     opacity: 1;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid $secondary;
+}
+
+.card{
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card-img-top{
+    max-width: 260px;
+    max-height: 240px;
 }
