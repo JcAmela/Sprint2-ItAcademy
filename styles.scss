@@ -19,6 +19,20 @@ $secondary: #FA5959;
     border-bottom: 2px solid $secondary;
 }
 
+// pilas
+.primera-pila{
+    height: 80%;
+    width: 130%; 
+    transform: translateX(20%) translateY(-90%);
+    z-index: -1;
+}
+.segunda-pila{
+    height: 100%;
+    width: 130%; 
+    transform: translateX(-45%) translateY(-75%);
+    z-index: -1;
+}
+
 .card{
     align-items: center;
     text-align: center;
@@ -29,4 +43,16 @@ $secondary: #FA5959;
 .card-img-top{
     max-width: 260px;
     max-height: 240px;
+}
+
+#logo-firefox {
+    bottom: 50%;
+    transform: translateY(10%);
+    right: 50%;
+}
+
+#logo-opera {
+    bottom: 50%;
+    right: 50%;
+    transform: translateY(20%);
 }

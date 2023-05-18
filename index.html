@@ -43,7 +43,7 @@
 
     <!-- Bookmark Manager -->
 
-    <div class="container mt-5">
+    <div class="container gx-5 mt-5 contenedor-bookmark">
         <div class="row align-items-center justify-content-center">
             <div class="col-12 col-lg-6">
                 <h1 class="mb-4">A Simple Bookmark Manager</h1>
@@ -52,8 +52,9 @@
                 <button type="button" class="btn btn-primary mb-3">Get it on Chrome</button>
                 <button type="button" class="btn btn-light mb-3">Get it on Firefox</button>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 position-relative">
                 <img src="Imagenes/illustration-hero.svg" alt="Descripción de la imagen" class="img-fluid">
+                <div class="primera-pila rounded-pill bg-primary position-absolute"></div>
             </div>
         </div>
     </div>
@@ -82,15 +83,16 @@
             </li>
         </ul>
 
+        <!-- Bookmark in one click -->
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-simple" role="tabpanel" aria-labelledby="pills-simple-tab">
-                <div class="row g-4">
-                    <div class="col-12 col-lg-6">
-                        <img src="Imagenes/illustration-features-tab-1.svg" alt="Simple Bookmarking Image"
-                            class="img-fluid">
+                <div class="row g-5">
+                    <div class="col-12 col-lg-6 position-relative">
+                        <img src="Imagenes/illustration-features-tab-1.svg" alt="Simple Bookmarking Image"class="img-fluid">
+                        <div class="segunda-pila rounded-pill bg-primary position-absolute"></div>
                     </div>
-                    <div class="col-12 col-lg-6">
-                        <h3 class="mb-3">Bookmark in one click</h3>
+                    <div class=" col-12 col-lg-6 pt-5 pt-sm-5">
+                        <h3 class>Bookmark in one click</h3>
                         <p class="mb-3">Organize your bookmarks however you like. Our simple drag-and-drop interface
                             gives you complete control over how you manage your favourite sites.</p>
                         <button type="button" class="btn btn-primary">More Info</button>
@@ -104,14 +106,14 @@
 
     <section class="container my-5">
 
-        <div class="text-center">
-            <h2 class="mt-5">Título de la Sección</h2>
+        <div class="text-center mt-5 pd-5">
+            <h2 class="mt-5 pt-5">Título de la Sección</h2>
             <p class="mb-5">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to
                 prioritize.</p>
         </div>
-            <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-lg-4 ">
-                    <div class="shadow p-3 rounded card">
+            <div class="row d-flex justify-content-center align-items-center mx-5 px-5">
+                <div class="col-lg-4" id="logo-chrome" >
+                    <div class="shadow p-3 rounded card ">
                         <img src="imagenes/logo-chrome.svg" class="card-img-top" alt="Logo de Chrome">
                         <div class="card-body">
                             <h5 class="card-title">Add to Chrome</h5>
@@ -122,7 +124,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4" id="logo-firefox">
                     <div class="shadow p-3 rounded card">
                         <img src="imagenes/logo-firefox.svg" class="card-img-top" alt="Logo de Firefox">
                         <div class="card-body">
@@ -134,7 +136,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4" id="logo-opera">
                     <div class="shadow p-3 rounded card">
                         <img src="imagenes/logo-opera.svg" class="card-img-top" alt="Logo de Opera">
                         <div class="card-body">
