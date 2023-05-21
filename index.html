@@ -193,16 +193,99 @@
     </section>
 
 <!-- FAQs -->
-    <div class="container my-5 pt-5">
-        <div class="text-center pt-5">
-            <h2 class="mb-3">Frequently Asked Questions</h2>
-            <p class="mb-3">Here are some of our FAQs. If you have any other questions you'd like answered please feel
-                free to email us.
-            </p>
+<div class="container my-5 pt-5">
+    <div class="text-center pt-5">
+        <h2 class="mb-3">Frequently Asked Questions</h2>
+        <p class="mb-3">Here are some of our FAQs. If you have any other questions you'd like answered please feel
+            free to email us.
+        </p>
+    </div>
+    <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <strong>What is Bookmark?</strong>
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, tempora temporibus? Tempora quas expedita impedit voluptate facilis alias aspernatur illo sed amet enim consequatur asperiores doloribus obcaecati ab, repellat eveniet?.
+                </div>
+            </div>
         </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>How can I request a new browser?</strong>
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, tempora temporibus? Tempora quas expedita impedit voluptate facilis alias aspernatur illo sed amet enim consequatur asperiores doloribus obcaecati ab, repellat eveniet?.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <strong>Is there a mobile app?</strong>
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, tempora temporibus? Tempora quas expedita impedit voluptate facilis alias aspernatur illo sed amet enim consequatur asperiores doloribus obcaecati ab, repellat eveniet?.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <strong>What about other Chromium browsers?</strong>
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, tempora temporibus? Tempora quas expedita impedit voluptate facilis alias aspernatur illo sed amet enim consequatur asperiores doloribus obcaecati ab, repellat eveniet?.
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-5">
+            <button type="button" class="btn btn-primary">More info</button>
+        </div>        
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center">
+    <div class="container p-3 d-flex flex-column align-items-center">
+        <p class="text-uppercase">13.000+ already joined</p>
+        <h5>Stay up-to-date with what we're doing</h5>
+        <form class="d-flex">
+            <input type="email" class="form-control" placeholder="Your Email">
+            <button type="submit" class="btn btn-secondary">Contact Us</button>
+        </form>
+    </div>
+    <div class="text-center p-3" style="background-color: #242946;">
+        <div class="d-flex justify-content-center align-items-center flex-wrap">
+            <div class="d-flex flex-column align-items-center m-2">
+                <img src="Imagenes/logo-bookmark.svg" alt="Logo">
+                <p class="text-uppercase">bookmark</p>
+            </div>
+            <p class="text-uppercase m-2">Features</p>
+            <p class="text-uppercase m-2">Pricing</p>
+            <p class="text-uppercase m-2">Contact</p>
+            <div class="d-flex justify-content-around m-2">
+                <img src="Imagenes/icon-facebook.svg" alt="Facebook">
+                <img src="Imagenes/icon-twitter.svg" alt="Twitter">
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
+  
 <!-- Scripts -->
         <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

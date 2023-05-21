@@ -1,11 +1,17 @@
-
-// Establece tus colores personalizados
+// -------------------------
+// Variables de Color Personalizadas
+// -------------------------
 $primary: #5265E1;
 $secondary: #FA5959;
 
-// Importa los estilos de Bootstrap
+// -------------------------
+// Importación de Estilos de Bootstrap
+// -------------------------
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
+// -------------------------
+// Estilos de Navegación
+// -------------------------
 .nav-pills .nav-link {
     background-color: transparent;
     color: #000;
@@ -19,13 +25,16 @@ $secondary: #FA5959;
     border-bottom: 2px solid $secondary;
 }
 
-// pilas
+// -------------------------
+// Estilos de Pilas
+// -------------------------
 .primera-pila{
     height: 80%;
     width: 130%; 
     transform: translateX(20%) translateY(-85%);
     z-index: -1;
 }
+
 .segunda-pila{
     height: 90%;
     width: 130%; 
@@ -33,6 +42,9 @@ $secondary: #FA5959;
     z-index: -1;
 }
 
+// -------------------------
+// Estilos de Tarjetas
+// -------------------------
 .card{
     align-items: center;
     text-align: center;
@@ -45,6 +57,9 @@ $secondary: #FA5959;
     max-height: 240px;
 }
 
+// -------------------------
+// Estilos de Logos
+// -------------------------
 #logo-firefox {
     bottom: 50%;
     transform: translateY(10%);
@@ -56,3 +71,10 @@ $secondary: #FA5959;
     right: 50%;
     transform: translateY(20%);
 }
+.accordion-button:not(.collapsed) {
+    color: inherit; /* Esto asegura que el color del texto no cambie */
+  }
+  
+  .accordion-button::after {
+    color: $primary; /* Esto cambiará el color del icono */
+  }
