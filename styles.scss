@@ -10,6 +10,16 @@ $secondary: #FA5959;
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
 // -------------------------
+// Estilos Generales
+// -------------------------
+body {
+     overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+// -------------------------
 // Estilos de Navegación
 // -------------------------
 .nav-pills .nav-link {
@@ -29,15 +39,15 @@ $secondary: #FA5959;
 // Estilos de Pilas
 // -------------------------
 .primera-pila{
-    height: 80%;
-    width: 130%; 
+    height: 100%;
+    width: 150%; 
     transform: translateX(20%) translateY(-85%);
     z-index: -1;
 }
 
 .segunda-pila{
-    height: 90%;
-    width: 130%; 
+    height: 100%;
+    width: 140%; 
     transform: translateX(-50%) translateY(-75%);
     z-index: -1;
 }
@@ -71,10 +81,25 @@ $secondary: #FA5959;
     right: 50%;
     transform: translateY(20%);
 }
+
+// -------------------------
+// Estilos de FAQs
+// -------------------------
 .accordion-button:not(.collapsed) {
-    color: inherit; /* Esto asegura que el color del texto no cambie */
-  }
+    color: inherit; /* Esto asegura que el color del texto de las preguntas no cambie. */
+}
   
-  .accordion-button::after {
-    color: $primary; /* Esto cambiará el color del icono */
-  }
+.accordion-button::after {
+    color: $primary; /* Esto cambiará el color del icono. */
+}
+
+.background-custom{
+    background-color: #242946;
+}
+
+// -------------------------
+// Estilos de Footer
+// -------------------------
+.iconos-custom{
+    float: inline-end;
+}
