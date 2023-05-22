@@ -3,6 +3,7 @@
 // -------------------------
 $primary: #5265E1;
 $secondary: #FA5959;
+$footer: #242946;
 
 // -------------------------
 // Importación de Estilos de Bootstrap
@@ -101,6 +102,7 @@ a{
 // -------------------------
 // Estilos de Footer
 // -------------------------
-.iconos-custom{
-    float: inline-end;
+footer{
+    background: $footer;
+    color: #fff;
 }
