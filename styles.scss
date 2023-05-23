@@ -3,7 +3,8 @@
 // -------------------------
 $primary: #5265E1;
 $secondary: #FA5959;
-$footer: #242946;
+// $accordion-button-icon: url("./Imagenes/icon-arrow.svg");
+// $accordion-button-active-icon: url("./Imagenes/icon-arrow.svg");
 
 // -------------------------
 // Importación de Estilos de Bootstrap
@@ -20,10 +21,15 @@ body {
 
 a{
     text-decoration: none;
+    color: #fff;
 }
+
 // -------------------------
 // Estilos de Navegación
 // -------------------------
+.btn-secondary{
+    color:#fff;
+}
 .nav-pills .nav-link {
     background-color: transparent;
     color: #000;
@@ -57,11 +63,15 @@ a{
 // -------------------------
 // Estilos de Tarjetas
 // -------------------------
-.card{
+%cards{
     align-items: center;
     text-align: center;
     height: 100%;
-    width: 100%;
+    width: 100%;    
+}
+
+.card:nth-child(n){
+    @extend %cards
 }
 
 .card-img-top{
@@ -103,6 +113,37 @@ a{
 // Estilos de Footer
 // -------------------------
 footer{
-    background: $footer;
+    background: #242946;
     color: #fff;
+}
+
+.footer-svg{
+    cursor: pointer;
+}
+
+// -------------------------
+// Estilos de Hovers
+// -------------------------
+.nav-link:hover, .accordion-button:hover{
+color:orange;
+}
+.btn-secondary:hover{
+    background-color: #fff;
+    color: $secondary;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: $primary;
+}
+.btn-light:hover{
+    background-color: #fff;
+    color: #d3d4d5;
+}
+.button-class-custom:hover{
+    color: $secondary;
+}
+.footer-svg:hover{
+    path {
+        fill: $secondary;
+    }
 }
