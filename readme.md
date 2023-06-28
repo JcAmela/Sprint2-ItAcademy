@@ -1,6 +1,6 @@
 # 🚀 IT Academy Barcelona Activa - Sprint 2 🚀
 
-¡Hola! Soy **Juan Carlos Amela**. Este repositorio alberga los niveles 1, 2 y 3 del segundo sprint del examen de programación de IT Academy Barcelona Activa. 
+¡Hola! Soy **Juan Carlos Amela**. Este repositorio alberga los niveles 1, 2 y 3 del segundo sprint de IT Academy Barcelona Activa. 
 
 Para este proyecto, se nos asignó la tarea de construir una landing page usando Bootstrap 5 y SASS para generar nuestros estilos CSS. Se nos proporcionó un diseño y se nos desafió a recrearlo lo más cerca posible.
 
