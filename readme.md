@@ -4,7 +4,7 @@
 
 Para este proyecto, se nos asignó la tarea de construir una landing page usando Bootstrap 5 y SASS para generar nuestros estilos CSS. Se nos proporcionó un diseño y se nos desafió a recrearlo lo más cerca posible.
 
-Puedes ver la página en acción [aquí](https://jcamela.github.io/Sprint2-ItAcademy.github.io/).
+ [Puedes ver la página en acción aquí](https://jcamela.github.io/Sprint2-ItAcademy/).
 
 ## 🎯 Niveles y Ejercicios
 
